@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue); /* Imports the font Bebas Neue into the code */
+@import url(https://fonts.googleapis.com/css?family=Oswald); /* Imports the font Oswald into the code */
+
+
+.banner { /* The code for the banner segment */
+	background-color: rgb(0, 0, 0); /* makes background black */
+	background-image: url(banner.png); /* adds a background image to the text */
+	background-size: cover; /* makes background cover */
+	background-repeat: no-repeat; /* makes background not repeat */
+	background-position: center; /* makes background align to the center */
+}
+h1 { /* The heading code for the banner segment */
+	margin: 0 0 0 0; /* makes this have no margin */
+	padding: 25 0 0 0; /* adds padding to the top */
+	color: white; /* makes text color white */
+	text-align: center; /* aligns text to the center */
+	font-family: 'Bebas Neue'; /* changes font to "Bebas Neue" */
+	font-size: 100px; /* changes font size */
+	line-height: 100px; /* changes the height of a single line */
+}
+nav { /* The segment code for the banner segment */
+	margin: 0 0 0 0;
+	padding: 0 0 25 0;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.pages { /* The code for the hyperlink buttons (this is called pages because there are more links in this page)*/
+	font-family: 'Bebas Neue';
+	color: black;
+	margin: 0px 25px 0px 25px;  /* adds margin to left and right*/
+	font-size: 25px;
+	background-color: white; /* makes background color white */
+	padding: 5px 50px 5px 50px;  /* adds padding all around it */
+	border-radius: 5px; /* makes rounded edges */
+	text-decoration: none;
+}
+.pages:hover { /* The code to change hyperlink buttons when hovering over it*/
+	background-color: midnightblue;
+	color: white;
+}
+.topic { /* The code to show the page the user is on*/
+	background-color: midnightblue;
+	color: white;
+}
+
+.bottom { /* The code for the bottom segment*/
+	background-color: rgb(25, 25, 25);
+}
+
+.extra { /* The code for the bottom segment text*/
+	font-family: 'Oswald'; /* changes font to "Oswald" */
+	color: rgb(200, 200, 200);
+	text-align: center;
+	font-size: 100%;
+}
+
+body { /* The code to style the entire webpage*/
+	background-color: rgb(0, 0, 0)
+}
+
+h2 { /* The code for the main title of the page*/
+	color: white;
+	text-align: left;
+	font-family: 'Bebas Neue';
+	font-size: 300%;
+	margin: 50px 0 0 50px;
+}
+.games { /* The code for the games segment of the page*/
+	text-align: center;
+	margin: 0 0 0 0;
+}
+.titles { /* The code for each title block*/
+	width: 20%;
+	display: inline-block; /* separates blocks to line next to each other */
+	text-align: center;
+	margin: 0px 15px 60px 15px;
+	padding: 10px;
+	background-color: rgb(50, 50, 50);
+	border-radius: 15px;
+	text-decoration: none;
+	vertical-align: top; /* vertically aligns text to the top */
+}
+
+.titles:hover { /* The code recognising if the user is hovering over the title block*/
+	background-color: rgb(65, 65, 65);
+}
+
+.title { /* The code for the title in each segment*/
+	font-family: 'Bebas Neue';
+	color: white;
+	font-size: 200%;
+	text-decoration: none;
+	margin: 0;
+}
+
+img{ /* The code for the images*/
+	border-radius: 5px;
+	width: 100%; /* makes width fit 100% */
+}
+.desc { /* The code for the information/descriptions*/
+	font-family: 'Bebas Neue';
+	color: rgb(100, 100, 100);
+	font-size: 100%;
+	margin: 0;
+}
+
+.info { /* The code for the information/descriptions*/
+	font-family: 'Oswald';
+	color: rgb(150, 150, 150);
+	font-size: 150%;
+	margin: 0 0 0 50px;
+	text-align: left;
+}
